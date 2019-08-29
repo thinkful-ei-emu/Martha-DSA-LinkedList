@@ -168,6 +168,7 @@ function display(list){
     currNode = currNode.next;
   }
   console.log(display);
+  return display;
 }
 //display(list);
 
@@ -295,9 +296,19 @@ function reverse(list) {
   }
   list.head = prevNode;
   display(list);
+  return list;
 }
-reverse(list);
+//reverse(list);
 
 // a -> b -> c
 // a <- b <- c
 // new Node(item, prevNode)
+
+function thirdToLast(list){
+  if(list.head === null){
+    return 'You have an empty linked list';
+  }
+  
+}
+
+thirdToLast(list);
