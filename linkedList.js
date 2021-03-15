@@ -312,3 +312,5 @@ function thirdToLast(list){
 }
 
 thirdToLast(list);
+
+module.exports = LinkedList;
